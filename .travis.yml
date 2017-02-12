@@ -1,0 +1,6 @@
+sudo: false
+language: node_js
+node_js: stable
+before_script:
+  - npm install
+script: npm run e2e
